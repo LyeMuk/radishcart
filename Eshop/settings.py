@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
+import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -82,10 +83,10 @@ WSGI_APPLICATION = 'Eshop.wsgi.application'
 DATABASES = {
     'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'postgres',
-            'USER': 'postgres',
-            'PASSWORD': '1234',
-            'HOST': 'localhost',
+            'NAME': 'd7ua35mercq8sh',
+            'USER': 'mckzbgylnniozb',
+            'PASSWORD': '47db53b992ee5e2320e7d1cf4072c0fff628921bcdc81231ee9fbabd8ea6fde3',
+            'HOST': 'ec2-52-73-155-171.compute-1.amazonaws.com',
             'PORT': '5432',
 
 
