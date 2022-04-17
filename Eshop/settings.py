@@ -82,12 +82,12 @@ WSGI_APPLICATION = 'Eshop.wsgi.application'
 
 DATABASES = {
     'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'd2vpdq4hdrgfg',
-            'USER': 'inykubtfctbsdr',
-            'PASSWORD': '08808f7d850672894137fc2e06eebf48f4a50f09fef2443d897aa01daaf632f4',
-            'HOST': 'ec2-44-199-143-43.compute-1.amazonaws.com',
-            'PORT': '5432',
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'dbname',
+            'USER': 'dbuser',
+            'PASSWORD': 'dbpass',
+            'HOST': 'mysql.example.com',
+            'PORT': '',
         }
 }
 
