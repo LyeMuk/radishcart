@@ -83,19 +83,11 @@ WSGI_APPLICATION = 'Eshop.wsgi.application'
 DATABASES = {
     'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'd7ua35mercq8sh',
-            'USER': 'mckzbgylnniozb',
-            'PASSWORD': '47db53b992ee5e2320e7d1cf4072c0fff628921bcdc81231ee9fbabd8ea6fde3',
-            'HOST': 'ec2-52-73-155-171.compute-1.amazonaws.com',
+            'NAME': 'd2vpdq4hdrgfgs',
+            'USER': 'inykubtfctbsdr',
+            'PASSWORD': '08808f7d850672894137fc2e06eebf48f4a50f09fef2443d897aa01daaf632f4',
+            'HOST': 'ec2-44-199-143-43.compute-1.amazonaws.com',
             'PORT': '5432',
-
-
-            # 'ENGINE': 'django.db.backends.postgresql',
-            # 'NAME': DATABASE_NAME,
-            # 'USER': DATABASE_USER,
-            # 'HOST': 'localhost',
-            # 'PASSWORD': DATABASE_PASSWORD,
-            # 'PORT': '5432',
         }
 }
 
